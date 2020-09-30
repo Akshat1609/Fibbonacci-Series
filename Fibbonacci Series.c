@@ -21,10 +21,10 @@ void fibbo(int a,int b, int steps)
 //Main Function
 int main()
 {
-	//Taking first two numbers and steps to be printed
-	printf("Enter first two numbers and steps:");
-	int a,b,steps;
-	scanf("%d%d%d",&a,&b,&steps);
+	//First two term of fibbonacci is 0 and 1
+	int a=0,b=1,steps;
+	printf("Enter the numbert of steps:");
+	scanf("%d",&steps);
 	printf("%d %d ",a,b);
 	//calling function
 	fibbo(a,b,steps);
